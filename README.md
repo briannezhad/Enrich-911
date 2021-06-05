@@ -1,4 +1,4 @@
-# Enrich 911 Incicents
+# Enrich 911 Incidents
 
 ## Available Scripts
 
