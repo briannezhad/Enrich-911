@@ -1,5 +1,17 @@
+
+
+
 .map-container {
   height: 100%;
-  width: 100%;
+  width: 75%;
   position: absolute;
+}
+
+.incidents-container {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  width: 25%;
+  height: 100%;
 }
