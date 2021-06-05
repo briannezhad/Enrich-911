@@ -1,5 +1,7 @@
 # Enrich 911 Incidents
 
+![Demo Screenshot](https://github.com/briannezhad/Enrich-911/blob/main/screenshot.png?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
