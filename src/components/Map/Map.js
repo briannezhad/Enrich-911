@@ -19,10 +19,12 @@ const mapContainerStyle = {
   // Incident Places (This would be API Call)
   const places = [
     {
+      common_place_name: incident_one.address.common_place_name,
       longitude: incident_one.address.longitude,
       latitude: incident_one.address.latitude,
     },
     {
+      common_place_name: incident_two.address.common_place_name,
       longitude: incident_two.address.longitude,
       latitude: incident_two.address.latitude,
     },

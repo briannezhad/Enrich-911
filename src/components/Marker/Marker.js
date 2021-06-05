@@ -14,7 +14,7 @@ const Marker = ({ map, place }) => {
     const marker = new mapboxgl.Marker(outerDiv)
       .setLngLat([place.longitude, place.latitude])
       .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-        .setHTML('<h3>' + place.name + '</h3><p>' + place.detail + '</p>'))
+        .setHTML('<h6>' + place.common_place_name + '</h6>'))
       .addTo(map)
 
     return () => marker.remove()
